@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addNewClassRoom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indexClassRoom",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_finalMark",
+						"type": "uint256"
+					}
+				],
+				"name": "addNewStudentClassRoom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "classrooms",
+				"outputs": [
+					{
+						"internalType": "contract Classroom",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indexClassRoom",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_indexStudent",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudentClassRoom",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "finalMark",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Classroom.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClassroomManager.sol": "ClassroomManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Classroom.sol": {
+			"keccak256": "0x360b666187303deae2ff1ca5834e8ce899a06a3c4f28d2c903e7a943da475a0e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://580dafeb181d0a9fb77f14dc00b0d1fd06227fadbc08a5871d42ba1aa1c73b35",
+				"dweb:/ipfs/Qmc5eLqr64RQuXr65xS2vvYqoHkX3CYP8bU6bDuWKKLHfd"
+			]
+		},
+		"contracts/ClassroomManager.sol": {
+			"keccak256": "0x0283202f2a9e69488e47a20452970430c68e4438206191fb45e28f42c579506a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e4239e350eb4cd445bd2c2b747819e0cf0980763904a8331e04064d05e0aeee",
+				"dweb:/ipfs/QmT1kYhUwhQrKvPsyVQw9TVKDfEC7natL9AxJa9fhCxHuG"
+			]
+		}
+	},
+	"version": 1
+}
